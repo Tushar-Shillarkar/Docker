@@ -1,7 +1,8 @@
+
 FROM ubuntu:22.04  
 
 
-LABEL dev="Tushar"
+LABEL dev="anup"
 
 RUN apt-get update && \
 apt-get install unzip openjdk-11-jdk -y  
